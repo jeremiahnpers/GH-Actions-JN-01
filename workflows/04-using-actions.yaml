@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
-      - name: PRinting Folders
+      - name: Printing Folders
         run: ls
       #- name: Setup Node
       #  uses: actions/setup-node@v3
